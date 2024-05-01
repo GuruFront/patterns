@@ -14,7 +14,7 @@ class Server {
         this.ip = ip
     }
 
-    getUrl(){
+    getUrl() {
         return `http://${this.ip}:80`
     }
 }
